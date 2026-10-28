@@ -6,6 +6,9 @@ import reportWebVitals from './reportWebVitals';
 import theme from '~/theme/theme';
 import { ChakraProvider } from '@chakra-ui/react';
 
+import '@fontsource/space-grotesk';
+import '@fontsource/inter';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
