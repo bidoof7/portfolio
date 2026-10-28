@@ -7,6 +7,4 @@ const publicRoutes = [
     { path: config.routes.projects, component: Projects}
 ]
 
-const privateRoutes = []
-
-export { publicRoutes, privateRoutes }
+export { publicRoutes }
